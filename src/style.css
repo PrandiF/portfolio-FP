@@ -155,6 +155,12 @@ button:focus {
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
+  .nav-container{
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
