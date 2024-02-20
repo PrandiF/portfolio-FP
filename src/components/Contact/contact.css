@@ -3,10 +3,17 @@
 } */
 
 .contact-container {
+  position: relative;
+  z-index: 1;
+  background-image: var(--image-gradient);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 100px !important;
   height: 93vh;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 70px;
 }
 
 .form-container {
@@ -115,4 +122,5 @@ textarea:focus {
   .contact-img {
     display: none;
   }
+  
 }
