@@ -2,17 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/franAvatar.JPG";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Particle from "../Particle";
+import Particle2 from "../Particle2";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="home">
-      <Particle />
+      <Particle2 />
       <Container className="home-content">
         <Row>
           <Col md={8} className="home-about-description">

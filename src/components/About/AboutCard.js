@@ -28,7 +28,7 @@ function AboutCard() {
             aprendizaje, con el objetivo de un crecimiento profesional continuo.
             <br />
             <br />
-            <div style={{display: "flex", justifyContent: "space-around"}}>
+            <div className="descargarCV-button-container">
               <Button
                 variant="primary"
                 href={pdfES}

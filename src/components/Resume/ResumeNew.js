@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdfES from "../../Assets/CVFrancoPrandiES.pdf"
-import pdfEN from "../../Assets/CVFrancoPrandiEN.pdf"
+import pdfES from "../../Assets/CVFrancoPrandiES.pdf";
+import pdfEN from "../../Assets/CVFrancoPrandiEN.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Particle2 from "../Particle2";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -19,7 +20,9 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
+        {/* <div className="particles-container"> */}
+          <Particle2 />
+        {/* </div> */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

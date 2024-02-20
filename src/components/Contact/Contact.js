@@ -1,17 +1,25 @@
 import React from "react";
 import "./contact.css";
 import ContactForm from "./ContactForm";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Particle from "../Particle";
-import contactImg from "../../Assets/contact1.png"
-
+import contactImg from "../../Assets/contact1.png";
+import Particle2 from "../Particle2";
+import Footer from "../Footer";
 
 function Contact() {
   return (
-    <Container fluid className="about-section contact-container">
-      <Particle />
+    <Container fluid className="contact-container">
+      <Particle2 />
       <h2 className="title">Contactame 🚀</h2>
-      <Container style={{display: "flex", width: "100%", justifyContent: "space-around", alignItems: "center"}}>
+      <Container
+        style={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "space-around",
+          alignItems: "center",
+        }}
+      >
         <img
           src={contactImg}
           alt="contact pic"

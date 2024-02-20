@@ -5,13 +5,22 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import aboutLogo from "../../Assets/aboutLogo.png";
 import Toolstack from "./Toolstack";
+import Github from "./Github";
+import Particle2 from "../Particle2";
+import Footer from "../Footer";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      <Particle2 />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+          }}
+          className="know-me-container"
+        >
           <Col
             md={7}
             style={{
@@ -20,9 +29,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Conoceme un poco más <strong className="blue"></strong>
-            </h1>
+            <h1 className="title">Conoceme un poco más</h1>
             <Aboutcard />
           </Col>
           <Col
@@ -33,13 +40,12 @@ function About() {
             <img src={aboutLogo} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+
+        <h1 className="title">
           Stack <strong className="blue">Tecnológico </strong>
         </h1>
-
         <Techstack />
-
-        <h1 className="project-heading">
+        <h1 className="title">
           Stack de <strong className="blue">herramientas</strong>
         </h1>
         <Toolstack />
