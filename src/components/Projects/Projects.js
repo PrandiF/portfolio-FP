@@ -34,7 +34,7 @@ function Projects() {
               Además, el sitio incluye secciones en las que se muestran las películas y series de moda."
               ghLink="https://github.com/PrandiF/The_Movie_Party"
               link={false}
-              linkURL=""
+              carrousel={true}
             />
           </Col>
 

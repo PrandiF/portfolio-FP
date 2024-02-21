@@ -58,9 +58,9 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Viajar por el mundo
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Jugar videojuegos
-            </li>
+            </li> */}
           </ul>
         </blockquote>
       </Card.Body>

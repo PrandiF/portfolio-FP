@@ -12,3 +12,39 @@
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 767px) {
+  .custom-modal .modal-dialog {
+    min-width: 650px !important; /* Cambia el ancho mínimo */
+    min-height: 800px !important; /* Cambia la altura mínima */
+    transform: rotate(90deg) translateX(-50%) translateY(50%);
+    transform-origin: left top;
+    top: 50%;
+    left: 50%;
+  }
+
+  .modal-content {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    height: 100% !important;
+    width: auto !important;
+    overflow: hidden;
+  }
+
+  .modal-body {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 15px;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+  .carrousel-container {
+    width: 100%; /* Ajustar el ancho al modo horizontal */
+    height: auto; /* Ajustar la altura al modo horizontal */
+  }
+
+  .img-carrousel {
+    max-width: 100%; /* Ajustar el ancho de las imágenes al modo horizontal */
+    height: auto; /* Ajustar la altura de las imágenes al modo horizontal */
+  }
+}
