@@ -4,7 +4,6 @@ import myImg from "../../Assets/franAvatar.JPG";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Particle from "../Particle";
 import Particle2 from "../Particle2";
 
 function Home2() {
@@ -22,7 +21,7 @@ function Home2() {
               <br />
               Domino clásicos como
               <i>
-                <b className="blue"> HTML, Javascript and CSS. </b>
+                <b className="blue"> HTML, Javascript y CSS. </b>
               </i>
               Además, tengo experiencia con
               <i>
@@ -44,7 +43,7 @@ function Home2() {
               productos con <b className="blue">Node.js</b> y las últimas
               bibliotecas y frameworks de JavaScript como
               <i>
-                <b className="blue"> React.js and Next.js</b>
+                <b className="blue"> React y Next.js</b>
               </i>
             </p>
           </Col>
@@ -71,16 +70,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/franco-prandi/"
