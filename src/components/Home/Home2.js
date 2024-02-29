@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/franAvatar.JPG";
+import MyImg from "../../Assets/franAvatar2.jpg"
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -49,7 +49,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-avatar" alt="avatar" />
+              <img src={MyImg} className="img-avatar" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
