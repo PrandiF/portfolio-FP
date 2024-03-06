@@ -12,6 +12,15 @@ function Contact() {
     <Container fluid className="contact-container">
       <Particle2 />
       <h2 className="title">Contactame 🚀</h2>
+      <div className="msj-container">
+        <p>
+          ¡Actualmente estoy buscando oportunidades laborales en el campo de
+          Desarrollo Front End a tiempo completo o a medio tiempo! Si conoces
+          alguna posición disponible, si tienes alguna pregunta, o simplemente
+          quieres saludar, no dudes en ponerte en contacto conmigo.
+        </p>
+      </div>
+
       <Container
         style={{
           display: "flex",
