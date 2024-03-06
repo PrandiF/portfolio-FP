@@ -13,7 +13,18 @@
   height: 93vh;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 40px;
+}
+.msj-container{
+  width: 50%;
+  z-index: 9999;
+  display: flex;
+  margin: auto;
+}
+
+.msj-container p{
+  color: aliceblue;
+  font-size: 18px;
 }
 
 .form-container {
@@ -121,6 +132,9 @@ textarea:focus {
 
   .contact-img {
     display: none;
+  }
+  .msj-container p{
+    font-size: 15px;
   }
   
 }
