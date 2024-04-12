@@ -49,16 +49,13 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={MyImg} className="img-avatar" alt="avatar" />
+              <img src={myImg} className="img-avatar" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Me podes encontrar en</h1>
-            <p>
-              Estemos en <span className="blue">contacto...</span>
-            </p>
+            <h1>Me podes encontrar en...</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
