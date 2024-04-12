@@ -55,7 +55,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portadaFastDelivery}
-              onCourse={true}
+              onCourse={false}
               title="Fast Delivery App"
               description="Aplicación para una empresa de logística que tiene cientos de repartidores que al inicio del día reciben 10 paquetes cada uno y que deberán ir repartiendo a lo largo de la jornada. 
               La empresa puede monitorear la operación de repartidores, asignar o reasignar paquetes e intervenir en caso que haga falta para editar un envío.
