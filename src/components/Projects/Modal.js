@@ -17,7 +17,7 @@ function ProjectModal(props) {
       </Button>
       <Modal show={show} onHide={handleClose} className="custom-modal">
         <Modal.Header closeButton />
-        <Modal.Body>
+        <Modal.Body className="modal-body">
           <ProjectCarrousel />
         </Modal.Body>
       </Modal>

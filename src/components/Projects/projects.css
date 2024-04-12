@@ -15,14 +15,16 @@
 
 @media (max-width: 767px) {
   .custom-modal .modal-dialog {
-    min-width: 650px !important; /* Cambia el ancho mínimo */
-    min-height: 800px !important; /* Cambia la altura mínima */
-    transform: rotate(90deg) translateX(-50%) translateY(50%);
+    min-width: 550px !important; /* Cambia el ancho mínimo */
+    min-height: 650px !important; /* Cambia la altura mínima */
+    transform: rotate(90deg); /* Solo rotación */
     transform-origin: left top;
-    top: 50%;
-    left: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 120% auto 0;
   }
-
+  
   .modal-content {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -30,21 +32,13 @@
     width: auto !important;
     overflow: hidden;
   }
-
+  
   .modal-body {
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 15px;
+    /* padding: 15px; */
     margin: 0 auto;
     white-space: nowrap;
   }
-  .carrousel-container {
-    width: 100%; /* Ajustar el ancho al modo horizontal */
-    height: auto; /* Ajustar la altura al modo horizontal */
-  }
 
-  .img-carrousel {
-    max-width: 100%; /* Ajustar el ancho de las imágenes al modo horizontal */
-    height: auto; /* Ajustar la altura de las imágenes al modo horizontal */
-  }
 }
