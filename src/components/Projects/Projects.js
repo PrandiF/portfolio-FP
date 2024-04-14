@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import portadaTmdb from "../../Assets/Projects/TMDB/portadaTmdb.png";
-import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWeb.png";
-import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.png";
+import portadaTmdb from "../../Assets/Projects/TMDB/portadaTMDB.PNG";
+import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWeb.PNG";
+import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.PNG";
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
