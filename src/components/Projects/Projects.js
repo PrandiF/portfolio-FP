@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import portadaTmdb from "../../Assets/Projects/TMDB/portadaTMDB.PNG";
-import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWeb.PNG";
-import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.PNG";
+import portadaTmdb from "../../Assets/Projects/TMDB/portadaTmdb.png";
+import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWeb.png";
+import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.png";
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
@@ -34,7 +34,7 @@ function Projects() {
               Además, el sitio incluye secciones en las que se muestran las películas y series de moda."
               ghLink="https://github.com/PrandiF/The_Movie_Party"
               link={false}
-              carrousel={true}
+              carrousel="tmdb"
             />
           </Col>
 
@@ -62,6 +62,7 @@ function Projects() {
               También tiene una parte para los repartidores donde estos podrán registrarse, loguearse libremente y seleccionar los paquetes que entregará ese día."
               ghLink="https://github.com/hernanortiz18/fast-delivery-src"
               link={false}
+              carrousel="fast"
             />
           </Col>
         </Row>

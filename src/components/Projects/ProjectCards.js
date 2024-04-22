@@ -5,6 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { PiSlideshowFill } from "react-icons/pi";
 import ProjectModal from "./Modal";
+import FastDeliveryModal from "./ModalFastDelivery";
 
 function ProjectCards(props) {
   return (
@@ -60,9 +61,13 @@ function ProjectCards(props) {
           ) : (
             ""
           )}
-          {props.carrousel ? (
+          {props.carrousel === "tmdb" ? (
             <ProjectModal />
-          ) : ""}
+          ) : props.carrousel === "fast" ? (
+            <FastDeliveryModal />
+          ) : (
+            ""
+          )}
         </div>
       </Card.Body>
     </Card>

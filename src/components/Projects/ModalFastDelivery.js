@@ -3,9 +3,10 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { IoIosAlbums } from "react-icons/io";
 import ProjectCarrousel from "./ProjectCarrousel";
-import "./projects.css";
+import "./fastDelivery.css";
+import FastDeliveryCarrousel from "./FastDeliveryCarrousel";
 
-function ProjectModal(props) {
+function FastDeliveryModal(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -15,14 +16,14 @@ function ProjectModal(props) {
       <Button variant="primary" onClick={handleShow}>
         <IoIosAlbums /> Demo
       </Button>
-      <Modal show={show} onHide={handleClose} className="custom-modal">
+      <Modal show={show} onHide={handleClose} className="custom-fast-modal">
         <Modal.Header closeButton />
-        <Modal.Body className="modal-body">
-          <ProjectCarrousel />
+        <Modal.Body className="fast-modal-body">
+          <FastDeliveryCarrousel />
         </Modal.Body>
       </Modal>
     </>
   );
 }
 
-export default ProjectModal;
+export default FastDeliveryModal;

@@ -3,42 +3,41 @@
   margin: auto;
 }
 
-.custom-modal .modal-dialog {
-  min-width: 800px !important;
-  min-height: 650px !important;
+
+.custom-modal .modal-dialog{
+  max-width: 800px !important;
+  max-height: 450px !important;
 }
 
-.img-carrousel {
+
+.img-carrousel{
   width: 100%;
   height: auto;
 }
 
 @media (max-width: 767px) {
   .custom-modal .modal-dialog {
-    min-width: 550px !important; /* Cambia el ancho mínimo */
-    min-height: 650px !important; /* Cambia la altura mínima */
-    transform: rotate(90deg); /* Solo rotación */
-    transform-origin: left top;
+    min-width: 90% !important; 
+    min-height: 90% !important; 
+    /* transform: rotate(90deg) !important;  */
     display: flex;
     justify-content: center; 
     align-items: center; 
-    margin: 120% auto 0;
+    margin: 5% -20%;
+    
   }
   
   .modal-content {
-    transform: rotate(-90deg);
-    transform-origin: left top;
+    /* transform: rotate(-90deg); */
     height: 100% !important;
-    width: auto !important;
+    width: 100% !important;
     overflow: hidden;
   }
   
   .modal-body {
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
-    /* padding: 15px; */
     margin: 0 auto;
     white-space: nowrap;
   }
-
 }
