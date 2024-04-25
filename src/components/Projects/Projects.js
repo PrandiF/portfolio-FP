@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import portadaTmdb from "../../Assets/Projects/TMDB/portadaTmdb.png";
 import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWeb.png";
 import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.png";
+import portadaDonBasilio from "../../Assets/Projects/DonBasilio/portadaDonBasilio.png"
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
@@ -63,6 +64,21 @@ function Projects() {
               ghLink="https://github.com/hernanortiz18/fast-delivery-src"
               link={false}
               carrousel="fast"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portadaDonBasilio}
+              onCourse={false}
+              title="Don Basilio"
+              description="Sitio web diseñado para la peluquería 'Don Basilio', trabajando para la agencia de desarrollo de software 'SeptemDev Studio'. 
+              Esta web permite dar una presentacion del peluquero en cuestion y mostrar los trabajos realizados a lo largo de su carrera. Como objetivo principal, la pagina permite
+              agendar turnos a sus clientes para poder ir a cortarse el pelo. Estos turnos se agendan en un calendario virtual, en donde el peluquero puede tener el control de todos los 
+              turnos sacados y tener una mejor organización."
+              ghLink="https://github.com/LucasGlave/DonBasilioMulti"
+              link={true}
+              linkURL="https://don-basilio-multi.vercel.app/"
             />
           </Col>
         </Row>
