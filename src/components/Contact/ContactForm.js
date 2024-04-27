@@ -63,7 +63,7 @@ function ContactForm() {
           />
           <input
             type="text"
-            placeholder="Nombre"
+            placeholder="Apellido"
             onChange={handleChange}
             name="user_lastname"
             value={formData.user_lastname}

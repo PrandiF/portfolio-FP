@@ -52,6 +52,7 @@ function About() {
 
         {/* <Github /> */}
       </Container>
+      <Footer />
     </Container>
   );
 }

@@ -118,6 +118,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     gap: 0;
+    
   }
   .container {
     display: flex;
@@ -135,6 +136,9 @@ textarea:focus {
   }
   .msj-container p{
     font-size: 15px;
+  }
+  .form-container{
+    margin-bottom: 10%;
   }
   
 }

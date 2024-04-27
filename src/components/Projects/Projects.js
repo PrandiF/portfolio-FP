@@ -83,6 +83,7 @@ function Projects() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </Container>
   );
 }

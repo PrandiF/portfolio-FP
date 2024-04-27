@@ -43,7 +43,6 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
