@@ -18,8 +18,11 @@ function AboutCard() {
             {/* Actualmente estoy en busca de trabajo, ya que recientemente finalicé
             un bootcamp y estoy listo para empezar a trabajar.
             <br /> */}
-            Soy desarrollador full-stack con habilidades en diseño e
-            implementación de aplicaciones web.
+            Soy desarrollador full-stack especializado en frontend, con
+            experiencia en lenguajes como JavaScript, TypeScript, CSS y HTML. He
+            desarrollado sitios web completos utilizando React y Next.js,
+            aplicando estilos con CSS y frameworks de CSS utilitarios como
+            Tailwind.
             <br />
             Mi objetivo es aportar mi creatividad, dedicación y conocimientos a
             los equipos de IT.
