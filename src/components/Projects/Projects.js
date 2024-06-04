@@ -5,7 +5,8 @@ import Particle from "../Particle";
 import portadaTmdb from "../../Assets/Projects/TMDB/portadaTmdb.png";
 import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWeb.png";
 import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.png";
-import portadaDonBasilio from "../../Assets/Projects/DonBasilio/portadaDonBasilio.png"
+import portadaDonBasilio from "../../Assets/Projects/DonBasilio/portadaDonBasilio.png";
+import portadaSeptemDev from "../../Assets/Projects/SeptemDev/portadaSeptemDev.png";
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
@@ -14,15 +15,13 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle2 />
       <Container>
-        
-           <h1 className="title">
+        <h1 className="title">
           Mis <strong className="blue">Proyectos </strong>
         </h1>
-        <h4 style={{ color: "white", position: "relative"}}>
+        <h4 style={{ color: "white", position: "relative" }}>
           Acá te dejo algunos de los proyectos en los que estuve trabajando.
         </h4>
-        
-       
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -79,6 +78,18 @@ function Projects() {
               ghLink="https://github.com/LucasGlave/DonBasilioMulti"
               link={true}
               linkURL="https://don-basilio-multi.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portadaSeptemDev}
+              onCourse={false}
+              title="SeptemDev Studio"
+              description='Este sitio web fue desarrollado para la agencia de desarrollo web "SeptemDev Studio". Es una plataforma integral que permite conocer a fondo cómo trabajan, mostrando de manera detallada los proyectos realizados para diversos clientes, junto con sus respectivas soluciones y resultados. Además, presenta al talentoso equipo de SeptemDev Studio, destacando sus habilidades y roles dentro de la agencia, y ofrece una visión clara de la metodología de trabajo empleada, desde la concepción de ideas hasta la implementación final. Este sitio web es una ventana transparente a la creatividad, experiencia y dedicación que los caracteriza.'
+              ghLink="https://github.com/PrandiF/SeptemDev-Studio"
+              link={true}
+              linkURL="https://www.septemdevstudio.com/"
             />
           </Col>
         </Row>
