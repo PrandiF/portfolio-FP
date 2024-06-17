@@ -61,8 +61,8 @@ function Projects() {
               La empresa puede monitorear la operación de repartidores, asignar o reasignar paquetes e intervenir en caso que haga falta para editar un envío.
               También tiene una parte para los repartidores donde estos podrán registrarse, loguearse libremente y seleccionar los paquetes que entregará ese día."
               ghLink="https://github.com/hernanortiz18/fast-delivery-src"
-              link={false}
-              carrousel="fast"
+              link={true}
+             linkURL="https://fastdelivery.vercel.app/"
             />
           </Col>
 
