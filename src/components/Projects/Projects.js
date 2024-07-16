@@ -7,6 +7,7 @@ import portadaMiTurnoWeb from "../../Assets/Projects/MiTurnoWeb/portadaMiTurnoWe
 import portadaFastDelivery from "../../Assets/Projects/FastDelivery/portadaFastDelivery.png";
 import portadaDonBasilio from "../../Assets/Projects/DonBasilio/portadaDonBasilio.png";
 import portadaSeptemDev from "../../Assets/Projects/SeptemDev/portadaSeptemDev.png";
+import portadaVirtualRisk from "../../Assets/Projects/VirtualRisk/portadaVirtualRisk.png"
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
@@ -62,7 +63,7 @@ function Projects() {
               También tiene una parte para los repartidores donde estos podrán registrarse, loguearse libremente y seleccionar los paquetes que entregará ese día."
               ghLink="https://github.com/hernanortiz18/fast-delivery-src"
               link={true}
-             linkURL="https://fastdelivery.vercel.app/"
+              linkURL="https://fastdelivery.vercel.app/"
             />
           </Col>
 
@@ -90,6 +91,17 @@ function Projects() {
               ghLink="https://github.com/PrandiF/SeptemDev-Studio"
               link={true}
               linkURL="https://www.septemdevstudio.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portadaVirtualRisk}
+              onCourse={true}
+              title="Virtual Risk"
+              description='Estoy trabajando en el desarrollo de un sitio web exclusivo para la aseguradora "Virtual Risk", encargado de todo el frontend de la web. Este sistema está diseñado específicamente para el uso interno de los empleados de la empresa. Solo el personal autorizado podrá iniciar sesión, asegurando un entorno seguro y privado para la gestión de información. El objetivo principal de este proyecto es facilitar la carga y gestión de nuevos clientes. Los empleados podrán agregar rápidamente los datos necesarios y utilizar potentes herramientas de filtrado para acceder a la información de manera rápida y eficiente. Este sistema optimizado mejorará significativamente los procesos internos, permitiendo a "Virtual Risk" ofrecer un servicio más ágil y efectivo a sus clientes.'
+              ghLink="https://github.com/PrandiF/SeptemDev-Studio"
+              link={false}
             />
           </Col>
         </Row>
