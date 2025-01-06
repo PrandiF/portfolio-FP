@@ -135,7 +135,7 @@ function Projects() {
                             informativas con 'Popup Box'."
               ghLink=""
               link={true}
-              linkURL="https://app.clubgevp.com/"
+              linkURL="https://inquimex.com.ar/nuevo/"
             />
           </Col>
         </Row>
