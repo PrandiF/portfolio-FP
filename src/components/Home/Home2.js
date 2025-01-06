@@ -23,7 +23,7 @@ function Home2() {
               <i>
                 <b className="blue"> HTML, Javascript y CSS. </b>
               </i>
-              Además, tengo experiencia con
+              y también tengo experiencia con
               <i>
                 <b className="blue"> Typescript</b>
               </i>
@@ -36,6 +36,15 @@ function Home2() {
                 especialmente orientado hacia el{" "}
                 <b className="blue">desarrollo frontend</b>. Me apasiona crear
                 experiencias de usuario cautivadoras y funcionales.
+              </i>
+              <br />
+              <br />
+              <i>
+                Además, tengo experiencia trabajando con{" "}
+                <b className="blue">WordPress</b> y{" "}
+                <b className="blue">Elementor</b>, lo que me permite desarrollar
+                y personalizar sitios web dinámicos y atractivos, optimizando
+                tanto su diseño como su rendimiento.
               </i>
               <br />
               <br />

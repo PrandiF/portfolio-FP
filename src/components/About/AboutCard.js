@@ -24,6 +24,13 @@ function AboutCard() {
             aplicando estilos con CSS y frameworks de CSS utilitarios como
             Tailwind.
             <br />
+            <br />
+            Además, cuento con experiencia en WordPress y Elementor, lo que me
+            permite crear, personalizar y optimizar sitios web dinámicos y
+            atractivos, adaptados a las necesidades específicas de cada
+            proyecto.
+            <br />
+            <br />
             Mi objetivo es aportar mi creatividad, dedicación y conocimientos a
             los equipos de IT.
             <br />

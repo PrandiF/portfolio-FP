@@ -15,7 +15,9 @@ import {
   SiTypescript,
   SiPostgresql,
   SiSequelize,
-  SiTailwindcss
+  SiTailwindcss,
+  SiWordpress,
+  SiElementor
 } from "react-icons/si";
 
 
@@ -60,6 +62,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWordpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElementor />
       </Col>
     </Row>
   );
