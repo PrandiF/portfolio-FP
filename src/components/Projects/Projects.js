@@ -10,6 +10,7 @@ import portadaSeptemDev from "../../Assets/Projects/SeptemDev/portadaSeptemDev.p
 import portadaVirtualRisk from "../../Assets/Projects/VirtualRisk/portadaVirtualRisk.png";
 import portadaGevp from "../../Assets/Projects/GEVP/portadaGevp.png";
 import portadaInquimex from "../../Assets/Projects/Inquimex/portadaInquimex.png";
+import portadaPadelGevp from "../../Assets/Projects/PadelGEVP/portadaPadelGEVP.png";
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
@@ -135,7 +136,22 @@ function Projects() {
                             informativas con 'Popup Box'."
               ghLink=""
               link={true}
-              linkURL="https://inquimex.com.ar/nuevo/"
+              linkURL="https://inquimex.com.ar/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portadaPadelGevp}
+              onCourse={false}
+              title="Padel GEVP"
+              description="Aplicación que facilita la gestión de reservas de canchas de
+                            pádel. Incluye un calendario interactivo para seleccionar los
+                            horarios disponibles, notificaciones automáticas y un panel
+                            administrativo para configurar turnos y gestionar la
+                            disponibilidad de forma eficiente."
+              ghLink=""
+              link={true}
+              linkURL="https://padelgevp.vercel.app/"
             />
           </Col>
         </Row>
