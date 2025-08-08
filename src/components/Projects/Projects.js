@@ -9,8 +9,10 @@ import portadaDonBasilio from "../../Assets/Projects/DonBasilio/portadaDonBasili
 import portadaSeptemDev from "../../Assets/Projects/SeptemDev/portadaSeptemDev.png";
 import portadaVirtualRisk from "../../Assets/Projects/VirtualRisk/portadaVirtualRisk.png";
 import portadaGevp from "../../Assets/Projects/GEVP/portadaGevp.png";
-import portadaInquimex from "../../Assets/Projects/Inquimex/portadaInquimex.png";
 import portadaPadelGevp from "../../Assets/Projects/PadelGEVP/portadaPadelGEVP.png";
+import portadaInquimex from "../../Assets/Projects/Inquimex/portadaInquimex.png";
+import portadaLosAlmendros from "../../Assets/Projects/LosAlmendros/portadaLosAlmendros.png";
+import portadaGearLab from "../../Assets/Projects/GearLab/portadaGearLab.png";
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
@@ -152,6 +154,31 @@ function Projects() {
               ghLink=""
               link={true}
               linkURL="https://padelgevp.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portadaLosAlmendros}
+              onCourse={false}
+              title="Quinchos Los Almendros"
+              description="Diseñamos y desarrollamos una tienda online utilizando WordPress, Elementor y WooCommerce, optimizada para la venta de muebles. El sitio permite gestionar productos, controlar stock y procesar pagos de forma ágil y segura.
+El desarrollo se realizó siguiendo un diseño personalizado en Figma, creado por nuestro equipo, asegurando una experiencia visual coherente, moderna y alineada con la identidad de la marca.
+"
+              ghLink=""
+              link={true}
+              linkURL="https://losalmendrosquinchos.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portadaGearLab}
+              onCourse={false}
+              title="GearLab"
+              description="Diseñamos y desarrollamos una landing page utilizando WordPress y Elementor, con el objetivo de presentar los servicios de la empresa de manera clara, profesional y atractiva.
+El diseño fue creado en Figma por nuestro equipo, garantizando una identidad visual coherente y una estructura orientada a la conversión."
+              ghLink=""
+              link={true}
+              linkURL="https://gearlab.com.ar/"
             />
           </Col>
         </Row>
