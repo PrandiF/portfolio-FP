@@ -1,9 +1,90 @@
 {
-  "welcome": "Welcome to my portfolio",
-  "about": "About Me",
-  "contact": "Contact",
-  "projects": "Projects",
-  "home": "Home",
-  "resume": "Resume",
-  "homeIntro": "This is the introduction to the home page."
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "welcome": "¡Bienvenido!",
+    "intro": "Me llamo",
+    "name": "Franco Prandi"
+  },
+  "Typewriter": {
+    "webDeveloper": "Desarrollador Web",
+    "frontEnd": "Front End"
+  },
+  "home2": {
+    "title": "ME PRESENTO...",
+    "body": "Me enamoré de la programación y creo que he aprendido algunas cosas...🤷‍♂️",
+    "body2": "Domino clasicos como",
+    "body3": "y también tengo experiencia con",
+    "body4": ", lo que me permite escribir código más seguro y escalable.",
+    "body5": "Mi área de interés es la construcción de nuevos ",
+    "body6": "sitios web",
+    "body7": ", con un enfoque especialmente orientado hacia el ",
+    "body8": "desarrollo frontend",
+    "body9": "Me apasiona crear experiencias de usuario cautivadoras y funcionales.",
+    "body10": "Además, tengo experiencia trabajando con ",
+    "body12": "Siempre que sea posible, aplico mi pasión por desarrollar productos con ",
+    "body11": " lo que me permite desarrollar y personalizar sitios web dinámicos y atractivos, optimizando tanto su diseño como su rendimiento.",
+    "body13": " y las últimas bibliotecas y frameworks de JavaScript como ",
+    "findMe": "Me podés encontrar en..."
+  },
+  "AboutMe": {
+    "title": "Conoceme un poco más",
+    "intro": "Me llamo ",
+    "intro2": " y soy de",
+    "body": "Soy desarrollador full-stack especializado en frontend, con experiencia en lenguajes como JavaScript, TypeScript, CSS y HTML. He desarrollado sitios web completos utilizando React y Next.js, aplicando estilos con CSS y frameworks de CSS utilitarios como Tailwind.",
+    "body2": "Además, cuento con experiencia en WordPress y Elementor, lo que me permite crear, personalizar y optimizar sitios web dinámicos y atractivos, adaptados a las necesidades específicas de cada proyecto.",
+    "body3": "Mi objetivo es aportar mi creatividad, dedicación y conocimientos a los equipos de IT.",
+    "body4": "Siempre estoy dispuesto a ofrecer ayuda e igualmente abierto al aprendizaje, con el objetivo de un crecimiento profesional continuo.",
+    "extraActivities": "Además de codear, hago otras cosas!",
+    "extraActivities1": "Jugador de basquet profesional",
+    "extraActivities2": "Viajar por el mundo",
+    "technologies": " Tecnológico",
+    "tools": " de Herramientas"
+  },
+  "Projects": {
+    "title": "Mis ",
+    "title2": "Proyectos",
+    "description": "Acá podés encontrar una selección de mis proyectos más destacados.",
+
+    "Septemdev": {
+      "title": "Septemdev Studio",
+      "description": "Este sitio web fue desarrollado para la agencia de desarrollo web \"SeptemDev Studio\". Es una plataforma integral que permite conocer a fondo cómo trabajan, mostrando de manera detallada los proyectos realizados para diversos clientes, junto con sus respectivas soluciones y resultados. Además, presenta al talentoso equipo de SeptemDev Studio, destacando sus habilidades y roles dentro de la agencia, y ofrece una visión clara de la metodología de trabajo empleada, desde la concepción de ideas hasta la implementación final. Este sitio web es una ventana transparente a la creatividad, experiencia y dedicación que los caracteriza."
+    },
+    "VirtualRisk": {
+      "title": "Virtual Risk",
+      "description": "Sitio web exclusivo desarrollado para la aseguradora \"Virtual Risk\". Este sistema está diseñado específicamente para el uso interno de los empleados de la empresa. Solo el personal autorizado podrá iniciar sesión, asegurando un entorno seguro y privado para la gestión de información. El objetivo principal de este proyecto es facilitar la carga y gestión de nuevos clientes. Los empleados podrán agregar rápidamente los datos necesarios y utilizar potentes herramientas de filtrado para acceder a la información de manera rápida y eficiente. Este sistema optimizado mejorará significativamente los procesos internos, permitiendo a \"Virtual Risk\" ofrecer un servicio más ágil y efectivo a sus clientes."
+    },
+    "GEVPApp": {
+      "title": "GEVP App",
+      "description": "Aplicación web exclusiva desarrollada para el club \"GEVP\". Este sistema está diseñado con el objetivo principal de una mejor organización en cuanto a los horarios de entrenamientos de los deportes y la disponibilidad de los distintos gimnasios de la institución. Los empleados con acceso al usuario administrador podrán cargar y editar rápidamente las actividades con los datos necesarios de manera rápida y eficiente. Mientras que todos los socios del club, podrán acceder al sistema, con una cuenta única de socio. Estos simplemente podrán buscar los horarios de sus actividades y la disponibilidad de los gimnasios que deseen. Este sistema optimizado mejorará significativamente los procesos internos, permitiendo a \"GEVP\" ofrecer un servicio más ágil y organizado a sus socios."
+    },
+    "Inquimex": {
+      "title": "Inquimex",
+      "description": "Desarrollé una página web para una empresa química utilizando WordPress y Elementor, enfocada en destacar sus productos y servicios. Creé un diseño atractivo, responsivo y optimizado para un rendimiento eficiente, incluyendo secciones informativas personalizadas y un panel de administración sencillo para facilitar la actualización de contenido. En esta web utilicé distintos plugins de WordPress, tales como 'Yoast SEO' para la optimización de los motores de búsqueda, 'Social Chat' para facilitar la comunicación entre los visitantes de la web con la empresa a través de WhatsApp. Tambien le agregue distintas ventanas emergentes informativas con 'Popup Box'."
+    },
+    "PadelGevp": {
+      "title": "Padel Gevp",
+      "description": "Aplicación que facilita la gestión de reservas de canchas de pádel. Incluye un calendario interactivo para seleccionar los horarios disponibles, notificaciones automáticas y un panel administrativo para configurar turnos y gestionar la disponibilidad de forma eficiente. Desarrollada con React para el frontend, utilizando Tailwind CSS para los estilos, Acuity Scheduling para la gestión de reservas."
+    },
+    "LosAlmendros": {
+      "title": "Quinchos Los Almendros",
+      "description": "Diseñamos y desarrollamos una tienda online utilizando WordPress, Elementor y WooCommerce, optimizada para la venta de muebles. El sitio permite gestionar productos, controlar stock y procesar pagos de forma ágil y segura. El desarrollo se realizó siguiendo un diseño personalizado en Figma, creado por nuestro equipo, asegurando una experiencia visual coherente, moderna y alineada con la identidad de la marca."
+    },
+    "GearLab": {
+      "title": "GearLab",
+      "description": "Diseñamos y desarrollamos una landing page utilizando WordPress y Elementor, con el objetivo de presentar los servicios de la empresa de manera clara, profesional y atractiva. El diseño fue creado en Figma por nuestro equipo, garantizando una identidad visual coherente y una estructura orientada a la conversión."
+    },
+    "SAI": {
+      "title": "SAI",
+      "description": "Colaboro en el desarrollo del frontend de SAI, una aplicación accesible creada por Neufitech para personas con discapacidad motriz y enfermedades neurodegenerativas. La app permite el control mediante la vista (eye-tracking) y está desarrollada con TypeScript, React y Electron, priorizando la accesibilidad y la experiencia del usuario."
+    },
+    "Siaacom": {
+      "title": "Siaacom",
+      "description": "Colaboro en el desarrollo del frontend de Siaacom, otra aplicación accesible creada por Neufitech para personas con discapacidad motriz y enfermedades neurodegenerativas como ELA. La app permite el control mediante la vista (eye-tracking) y está desarrollada con TypeScript, React y Electron, priorizando la accesibilidad y la experiencia del usuario."
+    }
+  }
 }

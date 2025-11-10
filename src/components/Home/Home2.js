@@ -5,54 +5,57 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Particle2 from "../Particle2";
+import { useTranslation } from "react-i18next";
 
 function Home2() {
+  const { i18n, t } = useTranslation();
+
   return (
     <Container fluid className="home-about-section" id="home">
       <Particle2 />
       <Container className="home-content">
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>ME PRESENTO...</h1>
+            <h1 style={{ fontSize: "2.6em" }}>{t("home2.title")}</h1>
             <p className="home-about-body">
-              Me enamoré de la programación y creo que al menos he aprendido
-              algo, ¡creo...! 🤷‍♂️
+              {t("home2.body")}
               <br />
               <br />
-              Domino clásicos como
+              {t("home2.body2")}
               <i>
                 <b className="blue"> HTML, Javascript y CSS. </b>
               </i>
-              y también tengo experiencia con
+              {t("home2.body3")}
               <i>
                 <b className="blue"> Typescript</b>
               </i>
-              , lo que me permite escribir código más seguro y escalable.
+              {t("home2.body4")}
               <br />
               <br />
-              Mi campo de interés principal es la construcción de nuevas &nbsp;
+              {t("home2.body5")}
               <i>
-                <b className="blue">aplicaciones</b>, con un enfoque
-                especialmente orientado hacia el{" "}
-                <b className="blue">desarrollo frontend</b>. Me apasiona crear
-                experiencias de usuario cautivadoras y funcionales.
+                <b className="blue">{t("home2.body6")}</b>
+                {t("home2.body7")}
+                <b className="blue">{t("home2.body8")}</b>. {t("home2.body9")}
               </i>
               <br />
               <br />
               <i>
-                Además, tengo experiencia trabajando con{" "}
-                <b className="blue">WordPress</b> y{" "}
-                <b className="blue">Elementor</b>, lo que me permite desarrollar
-                y personalizar sitios web dinámicos y atractivos, optimizando
-                tanto su diseño como su rendimiento.
+                {t("home2.body10")}
+                <b className="blue">WordPress</b>{" "}
+                {i18n.language === "es" ? "y " : "and "}
+                <b className="blue">Elementor</b>
+                {t("home2.body11")}
               </i>
               <br />
               <br />
-              Siempre que sea posible, aplico mi pasión por desarrollar
-              productos con <b className="blue">Node.js</b> y las últimas
-              bibliotecas y frameworks de JavaScript como
+              {t("home2.body12")}
+              <b className="blue">Node.js</b> {t("home2.body13")}
               <i>
-                <b className="blue"> React y Next.js</b>
+                <b className="blue">
+                  {" "}
+                  React {i18n.language === "es" ? "y " : "and "} Next.js
+                </b>
               </i>
             </p>
           </Col>
@@ -64,7 +67,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Me podes encontrar en...</h1>
+            <h1>{t("home2.findMe")}</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

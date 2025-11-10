@@ -1,9 +1,96 @@
 {
-  "welcome": "Welcome to my portfolio",
-  "about": "About Me",
-  "contact": "Contact",
-  "projects": "Projects",
-  "home": "Home",
-  "resume": "Resume",
-  "homeIntro": "This is the introduction to the home page."
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome!",
+    "intro": "My name is",
+    "name": "Franco Prandi"
+  },
+  "Typewriter": {
+    "webDeveloper": "Web Developer",
+    "frontEnd": "Front End"
+  },
+  "home2": {
+    "title": "LET ME INTRODUCE MYSELF...",
+    "body": "I fell in love with programming and I think I've learned a thing or two... 🤷‍♂️",
+    "body2": "I am fluent in classics like",
+    "body3": "and also have experience with",
+    "body4": ", which allows me to write safer and more scalable code.",
+    "body5": "My field of interest is building new ",
+    "body6": "websites",
+    "body7": ", with a particular focus on",
+    "body8": " frontend development",
+    "body9": "I am passionate about creating engaging and functional user experiences.",
+    "body10": "In addition, I have experience working with ",
+    "body11": " which allows me to develop and customize dynamic and attractive websites, optimizing both their design and performance. ",
+    "body12": "Whenever possible, I apply my passion for developing products with ",
+    "body13": " and the latest JavaScript libraries and frameworks like ",
+    "findMe": "You can find me on..."
+  },
+  "AboutMe": {
+    "title": "Get to know me a little better",
+    "intro": "My name is ",
+    "intro2": " and i am from",
+    "body": "I am a full-stack developer specializing in frontend, with experience in languages such as JavaScript, TypeScript, CSS, and HTML. I have developed complete websites using React and Next.js, applying styles with CSS and utility CSS frameworks like Tailwind.",
+    "body2": "In addition, I have experience with WordPress and Elementor, which allows me to create, customize, and optimize dynamic and attractive websites, tailored to the specific needs of each project.",
+    "body3": "My goal is to contribute my creativity, dedication, and knowledge to IT teams.",
+    "body4": "I am always willing to offer help and equally open to learning, with the aim of continuous professional growth.",
+    "extraActivities": "In addition to coding, I do other things!",
+    "extraActivities1": "Professional basketball player",
+    "extraActivities2": "Traveling the world",
+    "technologies": "Technological",
+    "tools": "Tools"
+  },
+  "Projects": {
+    "title": "My ",
+    "title2": "Projects",
+    "description": "Here you can find a selection of my most outstanding projects.",
+
+    "Septemdev": {
+      "title": "Septemdev Studio",
+      "description": "This website was developed for the web development agency \"SeptemDev Studio\". It is a comprehensive platform that allows a deep understanding of their work, showing in detail the projects carried out for various clients, along with their respective solutions and results. In addition, it presents the talented team of SeptemDev Studio, highlighting their skills and roles within the agency, and offers a clear view of the working methodology employed, from the conception of ideas to the final implementation. This website is a transparent window into the creativity, experience, and dedication that characterize them."
+    },
+    "VirtualRisk": {
+      "title": "Virtual Risk",
+      "description": "Exclusive website developed for the insurance company \"Virtual Risk\". This system is specifically designed for the internal use of the company's employees. Only authorized personnel will be able to log in, ensuring a secure and private environment for information management. The main objective of this project is to facilitate the onboarding and management of new clients. Employees will be able to quickly add the necessary data and use powerful filtering tools to access information quickly and efficiently. This optimized system will significantly improve internal processes, allowing \"Virtual Risk\" to offer a more agile and effective service to its clients."
+    },
+    "GEVPApp": {
+      "title": "GEVP App",
+      "description": "Exclusive web application developed for the \"GEVP\" club. This system is designed with the main objective of better organization regarding the training schedules of sports and the availability of the different gyms of the institution. Employees with access to the administrator user will be able to quickly upload and edit activities with the necessary data quickly and efficiently. While all club members will be able to access the system with a unique member account. They will simply be able to search for the schedules of their activities and the availability of the gyms they wish. This optimized system will significantly improve internal processes, allowing \"GEVP\" to offer a more agile and organized service to its members."
+    },
+    "Inquimex": {
+      "title": "Inquimex",
+      "description": "I developed a website for a chemical company using WordPress and Elementor, focused on showcasing its products and services. I created an attractive, responsive design optimized for efficient performance, including customized informational sections and a simple administration panel to facilitate content updates. In this web, I used different WordPress plugins, such as 'Yoast SEO' for search engine optimization, 'Social Chat' to facilitate communication between website visitors and the company via WhatsApp. I also added different informational pop-up windows with 'Popup Box'."
+    },
+    "PadelGevp": {
+      "title": "Padel Gevp",
+      "description": "Application that facilitates the management of paddle court reservations. It includes an interactive calendar to select available times, automatic notifications, and an administrative panel to configure shifts and manage availability efficiently. Developed with React for the frontend, using Tailwind CSS for styles, Acuity Scheduling for reservation management."
+    },
+    "LosAlmendros": {
+      "title": "Quinchos Los Almendros",
+      "description": "We designed and developed an online store using WordPress, Elementor, and WooCommerce, optimized for selling furniture. The site allows for product management, stock control, and secure payment processing. The development followed a custom design in Figma, created by our team, ensuring a coherent, modern visual experience aligned with the brand's identity."
+    },
+    "GearLab": {
+      "title": "GearLab",
+      "description": "We designed and developed a landing page using WordPress and Elementor, aimed at presenting the company's services clearly, professionally, and attractively. The design was created in Figma by our team, ensuring a coherent visual identity and a structure oriented towards conversion."
+    },
+    "SAI": {
+      "title": "SAI",
+      "description": "I collaborate in the development of the frontend of SAI, an accessible application created by Neufitech for people with motor disabilities and neurodegenerative diseases. The app allows control through vision (eye-tracking) and is developed with TypeScript, React, and Electron, prioritizing accessibility and user experience."
+    },
+    "Siaacom": {
+      "title": "Siaacom",
+      "description": "I collaborate in the development of the frontend of Siaacom, another accessible application created by Neufitech for people with motor disabilities and neurodegenerative diseases such as ALS. The app allows control through vision (eye-tracking) and is developed with TypeScript, React, and Electron, prioritizing accessibility and user experience."
+    }
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "description": "Feel free to reach out to me for any project or collaboration opportunities. I'm always open to discussing new ideas and connecting with fellow developers.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email"
+  }
 }

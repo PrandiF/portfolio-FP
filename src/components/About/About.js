@@ -8,8 +8,11 @@ import Toolstack from "./Toolstack";
 import Github from "./Github";
 import Particle2 from "../Particle2";
 import Footer from "../Footer";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { i18n, t } = useTranslation();
+
   return (
     <Container fluid className="about-section">
       <Particle2 />
@@ -29,7 +32,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 className="title">Conoceme un poco más</h1>
+            <h1 className="title">{t("AboutMe.title")}</h1>
             <Aboutcard />
           </Col>
           <Col
@@ -42,11 +45,23 @@ function About() {
         </Row>
 
         <h1 className="title">
-          Stack <strong className="blue">Tecnológico </strong>
+          {i18n.language === "en" && (
+            <strong className="blue">{t("AboutMe.technologies")} </strong>
+          )}
+          Stack
+          {i18n.language === "es" && (
+            <strong className="blue">{t("AboutMe.technologies")} </strong>
+          )}
         </h1>
         <Techstack />
         <h1 className="title">
-          Stack de <strong className="blue">herramientas</strong>
+          {i18n.language === "en" && (
+            <strong className="blue">{t("AboutMe.tools")} </strong>
+          )}
+          Stack
+          {i18n.language === "es" && (
+            <strong className="blue">{t("AboutMe.tools")} </strong>
+          )}
         </h1>
         <Toolstack />
 
