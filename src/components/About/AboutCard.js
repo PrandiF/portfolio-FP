@@ -43,7 +43,7 @@ function AboutCard() {
                 <AiOutlineDownload />
                 &nbsp;Descargar CV en Español
               </Button>
-              <Button
+              {/* <Button
                 variant="primary"
                 href={pdfEN}
                 target="_blank"
@@ -51,7 +51,7 @@ function AboutCard() {
               >
                 <AiOutlineDownload />
                 &nbsp;Download CV in English
-              </Button>
+              </Button> */}
             </div>
             <br />
             {t("AboutMe.extraActivities")}

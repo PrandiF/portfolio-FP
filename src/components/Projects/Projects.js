@@ -32,18 +32,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portadaSeptemDev}
-              onCourse={false}
-              title={t("Projects.Septemdev.title")}
-              description={t("Projects.Septemdev.description")}
-              ghLink="https://github.com/PrandiF/SeptemDev-Studio"
-              link={true}
-              linkURL="https://www.septemdevstudio.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={portadaVirtualRisk}
               onCourse={false}
               title={t("Projects.VirtualRisk.title")}
@@ -61,7 +49,7 @@ function Projects() {
               description={t("Projects.GEVPApp.description")}
               ghLink="https://github.com/PrandiF/gevp-front"
               link={true}
-              linkURL="https://app.clubgevp.com/"
+              linkURL="https://gevp-front.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -93,8 +81,8 @@ function Projects() {
               title={t("Projects.LosAlmendros.title")}
               description={t("Projects.LosAlmendros.description")}
               ghLink=""
-              link={true}
-              linkURL="https://losalmendrosquinchos.com/"
+              link={false}
+              // linkURL="https://losalmendrosquinchos.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -111,7 +99,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SAIPortada}
-              onCourse={true}
+              onCourse={false}
               title={t("Projects.SAI.title")}
               description={t("Projects.SAI.description")}
               ghLink="https://github.com/LucasGlave/SAI"
@@ -121,7 +109,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SiaacomPortada}
-              onCourse={true}
+              onCourse={false}
               title={t("Projects.Siaacom.title")}
               description={t("Projects.Siaacom.description")}
               ghLink="https://github.com/LucasGlave/SIAACOM"
